@@ -15,11 +15,11 @@ export default async function Home() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center">
-            <h1 className="mr-3 text-5xl font-seibold font bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent">A new way to read PDF's</h1>
+            <h1 className="mr-3 text-5xl font-seibold font bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent self-center">A new way to read PDF's</h1>
             <UserButton afterSignOutUrl='/' />
           </div>
-          <div className="flex mt-3">
-            {isAuth && <Button> Check out your pdf's </Button>}
+          <div className="flex mt-3 ">
+            {isAuth && <Button > Check out your pdf's </Button>}
           </div>
 
           <p className="max-w-xl mt-3 text-lg text-slate-400"> 

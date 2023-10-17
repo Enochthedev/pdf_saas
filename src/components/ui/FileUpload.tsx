@@ -21,8 +21,8 @@ const fileUpload = () => {
             })}>
                 <input {...getInputProps()} />
                 <>
-                <Inbox className='w-10 h-10 text-black-400'/>
-                <p className='mt-2 text-sm text-slate-400'>Your PDF goes here</p>
+                    <Inbox className='w-10 h-10  text-silver-400  margin="auto" self-center'/>
+                    <p className='mt-2 text-sm text-slate-400'>Your PDF goes here</p>
                 </>
                 </div>
                 </div>
