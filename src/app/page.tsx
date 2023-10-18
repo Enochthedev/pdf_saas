@@ -10,6 +10,7 @@ export default async function Home() {
   const { userId } = await auth();
   const isAuth = !!userId;
   return (
+
     <div className="w-screen min-h-screen bg-gradient-to-t from-gray-100 to-gray-300">
       <div className="h-screen w-full flex justify-center items-center px-10">
         <div className="flex flex-col items-center text-center gap-7">

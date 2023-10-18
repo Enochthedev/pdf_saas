@@ -5,6 +5,7 @@ import React from "react";
 import { Inbox } from "lucide-react";
 
 const fileUpload = () => {
+
   const { getRootProps, getInputProps } = useDropzone({
     accept: { "application/pdf": [".pdf"] },
     maxFiles: 1,
@@ -30,3 +31,4 @@ const fileUpload = () => {
   );
 };
 export default fileUpload;
+
