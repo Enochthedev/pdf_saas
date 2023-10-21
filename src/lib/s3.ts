@@ -1,5 +1,5 @@
 import AWS from 'aws-sdk'
-import { parse } from 'path';
+
 
 export async function uploadToS3(file:File) {
     try {
@@ -9,7 +9,7 @@ export async function uploadToS3(file:File) {
         });
         const s3 = new AWS.S3({
             params: {
-                Bucket: process.env.AWS_S3_BUCKET_NAME
+                Bucket: process.env.AWS_S3_BUCKET_NAME!
             },
             region: process.env.AWS_REGION
         })
